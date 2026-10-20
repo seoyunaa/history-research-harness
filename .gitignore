@@ -1,0 +1,49 @@
+# ── history-research-harness: 프레임워크만 추적 ─────────────────────
+# 연구 데이터·원본 사료·초고·대용량 바이너리는 저장소에 넣지 않는다.
+
+# 논문 작업공간 — 신규 논문 골격(_template)만 유지
+/_workspace/*
+!/_workspace/_template/
+
+# 기본 사료 층 데이터(source.yml·catalog.yml·텍스트층) — 규약(SCHEMA.md)만 추적
+/core-library/*
+!/core-library/SCHEMA.md
+
+# 로컬 자료층: 실제 설정·보유원장·전문 색인
+/references/library/*
+!/references/library/sources.example.txt
+/references/external/
+
+# 런타임 로그·편집기 상태
+/logs/
+/.obsidian/
+*.log
+
+# 파이썬 파생물
+__pycache__/
+*.pyc
+*.pyo
+
+# 대용량/파생 바이너리 안전망
+*.pdf
+*.hwp
+*.hwpx
+*.docx
+*.xlsx
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.tif
+*.tiff
+
+# 로컬 설정·OS 아티팩트
+.claude/settings.local.json
+.claude/settings.json
+.env
+nul
+.DS_Store
+Thumbs.db
+desktop.ini

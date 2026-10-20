@@ -1,0 +1,4 @@
+interface:
+  display_name: "역사 연구 DB"
+  short_description: "사료 검색·변환·발췌 카드·화이트리스트 정박"
+  default_prompt: "Use $history-db to check whether I already hold sources on this topic."

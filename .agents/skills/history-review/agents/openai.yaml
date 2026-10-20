@@ -1,0 +1,4 @@
+interface:
+  display_name: "역사 논문 모의 심사"
+  short_description: "심사표 8항목 모의 피어리뷰와 재심 루프"
+  default_prompt: "Use $history-review to run a three-reviewer mock review of my draft."

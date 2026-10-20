@@ -1,0 +1,26 @@
+# history-research-harness 지리·도표 재현 환경
+# 목적: 몇 달 뒤에도 같은 스크립트가 같은 지도·도표를 내도록 분석 스택을 고정한다.
+#
+# 실제 버전 잠금(권장):  conda env export --no-builds > environment.yml
+#   (지금 값은 스캐폴드다. 본인 환경의 실제 버전으로 덮어쓴다.)
+# GIS 데스크톱(QGIS 등)은 conda 밖일 수 있으니 버전을 도표 매니페스트 ②에 함께 적는다.
+#
+# verify.py·check_harness_hierarchy.py·library_search.py 등 핵심 가드레일은 표준 라이브러리만 쓴다(Python 3.10+).
+# 아래 패키지는 지도·네트워크·변환 같은 선택 기능에만 필요하다.
+
+name: history-research-harness
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - geopandas           # 정적 지도
+  - shapely
+  - pyproj
+  - gdal                # 지오레퍼런싱(georef.py). QGIS와 GDAL 버전 정합 주의
+  - matplotlib          # 정적 도표 렌더
+  - pandas
+  - numpy
+  - networkx            # build_network.py · build_diachronic.py
+  - pyyaml              # core-library 등록부(선택)
+  # sqlite3 은 파이썬 표준 라이브러리 — tools/build_db.py 는 추가 의존 없음
+  # - pymupdf / pdfplumber  # ingest.py PDF 텍스트 추출(설치된 것을 자동 사용 — tools/ingest.py 참조)

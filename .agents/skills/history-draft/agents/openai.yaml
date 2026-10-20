@@ -1,0 +1,4 @@
+interface:
+  display_name: "역사 논문 집필"
+  short_description: "0~10단계 인간 게이트로 역사학 논문 집필"
+  default_prompt: "Use $history-draft to start a new paper from my research question and run stage 1."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "역사 논문 윤문"
+  short_description: "저자 문체에 정박한 문장 층 윤문"
+  default_prompt: "Use $history-polish to copyedit this draft without changing its argument."

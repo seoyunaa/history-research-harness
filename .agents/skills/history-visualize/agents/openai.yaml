@@ -1,0 +1,4 @@
+interface:
+  display_name: "역사 연구 시각화"
+  short_description: "지도·네트워크·통시 그림을 재현 가능하게"
+  default_prompt: "Use $history-visualize to recommend a visualization for this data file."

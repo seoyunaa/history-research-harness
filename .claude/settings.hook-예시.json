@@ -1,0 +1,17 @@
+{
+  "_설명": "verify.py 상시 리뷰어 훅(Claude Code 전용) — 이 파일은 비활성 예시다. 활성화하려면 이 파일 이름을 settings.json으로 바꾼다(기존 settings.json이 있으면 hooks 절만 병합). 해제는 hooks 절 삭제.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python tools/verify_hook.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
