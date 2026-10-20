@@ -47,7 +47,7 @@ Claude Code용 파일(`.claude/`)이 정본입니다. Codex용 스킬·에이전
 필요한 것: [Claude Code](https://claude.com/claude-code) 또는 [OpenAI Codex](https://developers.openai.com/codex)(CLI·IDE 확장·앱), Python 3.10 이상(핵심 도구는 표준 라이브러리만 사용). 지도·네트워크 같은 선택 기능은 `environment.yml`의 패키지가 필요합니다.
 
 ```bash
-git clone https://github.com/<계정>/history-research-harness.git
+git clone https://github.com/seoyunaa/history-research-harness.git
 cd history-research-harness
 python tools/verify.py
 ```
@@ -94,7 +94,12 @@ Codex의 파일 위치 규칙은 OpenAI 공식 문서를 따랐습니다: [Skill
 
 ## 라이선스
 
-[미정 — 공개 전 결정]
+내용 유형별로 두 라이선스를 씁니다.
+
+- **코드**(`tools/`, `.github/`, `run_verify.cmd`, `run_verify.ps1`): [MIT](LICENSE)
+- **문서·템플릿**(규칙 문서, 스킬, 에이전트 정의, references, corpus 템플릿, README·안내서): [CC BY 4.0](LICENSE-DOCS) — 출처를 밝히면 자유롭게 쓰고 고칠 수 있습니다.
+
+Code is MIT-licensed; documentation and templates are CC BY 4.0. See [LICENSE](LICENSE).
 
 ---
 

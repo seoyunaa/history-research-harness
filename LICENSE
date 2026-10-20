@@ -1,0 +1,36 @@
+This repository is dual-licensed by content type.
+
+  * Code — everything under tools/ and .github/, plus run_verify.cmd and
+    run_verify.ps1 — is licensed under the MIT License below.
+  * Documentation and templates — all other files (rule documents, skills,
+    agent definitions, references, corpus templates, README and guides) —
+    are licensed under the Creative Commons Attribution 4.0 International
+    License (CC BY 4.0). The full license text is in LICENSE-DOCS.
+
+이 저장소는 내용 유형별로 두 라이선스를 쓴다.
+  * 코드(tools/, .github/, run_verify.cmd, run_verify.ps1): MIT 라이선스(아래).
+  * 문서·템플릿(그 밖의 모든 파일): CC BY 4.0(전문은 LICENSE-DOCS).
+
+-------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 seoyunaa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
